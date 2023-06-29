@@ -19,7 +19,6 @@ javap:
 
 
 def get_functions_of_lib(lib_path: str) -> str: 
-    print(EXTRACTION_COMMAND.format(lib_path=lib_path))
     result = subprocess.Popen(EXTRACTION_COMMAND.format(lib_path=lib_path), shell=True, stdout=subprocess.PIPE)
     return result.stdout.read().decode('utf-8')
     
@@ -52,10 +51,11 @@ if __name__ == '__main__':
         for single_func in class_old_lib_func:
             if single_func not in new_lib_func:
                 if (class_not_printed):
-                    print('[+] Class ---> ' + class_name)
+                    print("============================================================")
+                    print('[+] Class ---> ' + class_name + "\n")
                     class_not_printed = 0
                     
-                print(single_func)
+                print("\t" + single_func)
 
 
 
