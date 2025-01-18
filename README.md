@@ -112,3 +112,8 @@ Simple Project to Compare Between the Old Library and the New One to Check if th
   - If it is a major version update, high-risk and potentional of braking things.
   - If minor version update, then it is low risk.
   - If revision version change, then it is almost no risk and just bug fixes.
+
+## Buy me a Coffee: 
+BTC: bc1q2kqvggm552h0csyr0awa2zepdapxdqnacw0z5w
+
+![BTC](https://raw.githubusercontent.com/lcsig/API-Hooking/refs/heads/master/img/btc.png)
